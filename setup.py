@@ -4,13 +4,13 @@ import sys
 
 cv_ver = ""
 keras_ver = ">=2.0.0"
-if sys.version_info.major < 3:
-      cv_ver = "<=4.2.0.32" 
-      keras_ver = "<=2.3.0"
+#if sys.version_info.major < 3:
+#      cv_ver = "<=4.2.0.32" 
+#      keras_ver = "<=2.3.0"
 
 
 setup(name="keras_segmentation",
-      version="0.3.1",
+      version="0.3.0HYK",
       description="Image Segmentation toolkit for keras - modified by HYK",
       author="Divam Gupta",
       author_email='divamgupta@gmail.com haeyongkimbr@gmail.com',
