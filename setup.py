@@ -10,13 +10,13 @@ if sys.version_info.major < 3:
 
 
 setup(name="keras_segmentation",
-      version="0.3.0",
-      description="Image Segmentation toolkit for keras",
+      version="0.3.1",
+      description="Image Segmentation toolkit for keras - modified by HYK",
       author="Divam Gupta",
-      author_email='divamgupta@gmail.com',
+      author_email='divamgupta@gmail.com haeyongkimbr@gmail.com',
       platforms=["any"],  # or more specific, e.g. "win32", "cygwin", "osx"
       license="GPLv3",
-      url="https://github.com/divamgupta/image-segmentation-keras",
+      url="https://github.com/haeyongkimbr-usp/image-segmentation-keras.git",
       packages=find_packages(exclude=["test"]),
       entry_points={
             'console_scripts': [
@@ -24,17 +24,18 @@ setup(name="keras_segmentation",
             ]
       },
       install_requires=[
-            "h5py<=2.10.0",
-            "Keras"+keras_ver,
-            "imageio==2.5.0",
-            "imgaug>=0.4.0",
-            "opencv-python"+cv_ver,
-            "tqdm"],
+            #"h5py<=2.10.0",
+            #"Keras"+keras_ver,
+            #"imageio==2.5.0",
+            #"imgaug>=0.4.0",
+            #"opencv-python"+cv_ver,
+            #"tqdm"
+      ],
       extras_require={
             # These requires provide different backends available with Keras
             "tensorflow": ["tensorflow"],
-            "cntk": ["cntk"],
-            "theano": ["theano"],
+            #"cntk": ["cntk"],
+            #"theano": ["theano"],
             # Default testing with tensorflow
             "tests-default": ["tensorflow", "pytest"]
       }
