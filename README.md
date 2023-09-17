@@ -6,7 +6,7 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 [![Twitter](https://img.shields.io/twitter/url.svg?label=Follow%20%40divamgupta&style=social&url=https%3A%2F%2Ftwitter.com%2Fdivamgupta)](https://twitter.com/divamgupta)
 
-
+The original library was crashing if run on recent TensorFlow/Keras versions, including Google Colab. I made changes just so that the library can run on recent versions of TensorFlow/Keras. Hae Yong Kim. September 17, 2023.
 
 Implementation of various Deep Image Segmentation models in keras.
 
