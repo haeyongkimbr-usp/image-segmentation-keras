@@ -10,7 +10,7 @@ keras_ver = ">=2.0.0"
 
 
 setup(name="keras_segmentation",
-      version="0.3.0HYK",
+      version="0.3.0",
       description="Image Segmentation toolkit for keras - modified by HYK",
       author="Divam Gupta",
       author_email='divamgupta@gmail.com haeyongkimbr@gmail.com',
